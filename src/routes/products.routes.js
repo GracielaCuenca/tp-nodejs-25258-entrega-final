@@ -1,9 +1,9 @@
 import { Router } from "express";
 
 import { index, create, deleteAProduct, getById, update } from "../controllers/products.controller.js";
-//
+
 import {auth } from '../middlewares/auth.middleware.js'
-//
+
 
 const router = Router();
 
