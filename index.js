@@ -14,6 +14,12 @@ app.use(cors());
 
 app.use(express.json()) ; 
 
+app.get("/", (req, res) => {
+  res.send("API de productos online");
+});
+
+
+
 /*
 app.get("/", authRouter, (req, res) = > {
     res.send("API...");
