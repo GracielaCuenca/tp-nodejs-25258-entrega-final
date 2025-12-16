@@ -4,14 +4,12 @@
 
 
 import { Router } from "express";
-
-//import { login } from "../controllers/auth.controller.js";
+import { login } from "../controllers/auth.controller.js";
 
 const router = Router();
 
-//---ej
-
-//router.get("/auth/login", Credential) ; // primer item solicitado por el tp
+router.post("/login", login) ; 
 
 
 export default router;
+
